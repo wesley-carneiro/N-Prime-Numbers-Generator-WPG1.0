@@ -41,8 +41,8 @@ if (f == NULL)
 
     i = 3;
     num = 7;
-    ic = 4;
-    it = 1;
+    ic = -1;
+    //it = 1;
 
     //printf("%d", it);
     printf("\nDigite um inteiro maior que ZERO: ");
@@ -68,10 +68,10 @@ if (f == NULL)
           it++;
           primo = p[it]; // p[2] === 5, p[3] == 7, p[4] == 11, ...
 
-          if(!(num % primo)) { //se é divisivel por algum primo
-            num += ic;
-            ic = 6 - ic;
-            it = 1; // Avoid the divisibility test by 3 or 2
+          if(!(num % primo)) { //se Ã© divisivel por algum primo
+            ic *= -1;
+            num += (3 + ic);
+            it = 1; // Avoid the divisibility test by 3 or 2.
             continue;
           }
 
@@ -81,8 +81,9 @@ if (f == NULL)
         p[i] = num;
         time[i] = clock();
 
-        num += ic;
-        ic = 6 - ic;
+        ic *= -1;
+        num += (3 + ic);
+      
 
         // printf("%dth prime number: %d\n", i, p[i-1]);
         i++; // ->"time[i+1]""
