@@ -41,7 +41,7 @@ if (f == NULL)
 
     i = 3;
     num = 7;
-    ic = -1;
+    ic = 4;
     //it = 1;
 
     //printf("%d", it);
@@ -69,9 +69,9 @@ if (f == NULL)
           primo = p[it]; // p[2] === 5, p[3] == 7, p[4] == 11, ...
 
           if(!(num % primo)) { //se é divisivel por algum primo
-            ic *= -1;
-            num += (3 + ic); // Avoid the divisibility test by 3 or 2.
-            it = 1; 
+            num += ic;
+            ic = 6 - ic; // Avoid the divisibility test by 3 or 2.
+            it = 1;
             continue;
           }
 
@@ -81,18 +81,18 @@ if (f == NULL)
         p[i] = num;
         time[i] = clock();
 
-        ic *= -1;
-        num += (3 + ic);
-      
+        num += ic;
+        ic = 6 - ic;
+
 
         // printf("%dth prime number: %d\n", i, p[i-1]);
         i++; // ->"time[i+1]""
       } while (i < n);
 
       //long int tf = clock();
-      
+
       printf("\n%dth prime number: %d \n", n, p[n - 1]);
-	
+
       tempo_gasto = ((double)(time[i-1] - t0)) / CLOCKS_PER_SEC; // converting the unit of measurement and calculating
       printf("Tempo gasto: %lf s\n", tempo_gasto);
 
@@ -106,7 +106,7 @@ if (f == NULL)
       fprintf(f, "%d\t%lf\n" , i+1,  ((double)(time[i] - t0)) / CLOCKS_PER_SEC);
       }
       fclose(f);
-      printf("---------------------------------------");	
+      printf("---------------------------------------");
       printf("\nArquivo para plotagem salvo: %s", url);
       free(time);
 
@@ -132,7 +132,7 @@ if (f == NULL)
           answer = 'k';
         } else if (answer == 'N' || answer == 'n') {
           answer = 'k';
-        } 
+        }
       } while (answer != 'k' && answer != 'e' && answer != 'E');
     } //<--end if n >0
     free(p);
