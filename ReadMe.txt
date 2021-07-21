@@ -1,0 +1,29 @@
+A imagem bmp possui duas funções plotadas.
+
+Eixo x: quantidade_de_primos encontrados.
+Eixo y: tempo gasto em segundos.
+
+Em verde temos a função matemática que descreve o comportamento esperado.
+
+Em amarelo, o comportamento do experimento.
+
+COMANDO GnuPLot:
+-------------------------------------------------------------
+set grid
+set title "Algoritmo testado com: Intel® Core™ i3-4005U -- FREQUÊNCIA = 1700000"
+set key above
+log2(x) = log(x)/log(2)
+plot"C://Users/Wesley/Desktop/Nprimos_time.txt" title " N primos - Algoritmo O( F(x) ) " with points pt 7 ps 0.025 lc 12, (x*sqrt(x)) / (log2(x)*1700000*5) title "F(x) = (x*sqrt(x)) / (log2(x)*1700000*5)" lw 2
+-------------------------------------------------------------
+
+INSTRUÇÕES:
+0. BAIXAR e Executar o programa.c e fornecer uma entrada N > 1Milhão (com nenhum outro porgrama aberto)
+1. Abrir GnuPLot
+2. Ctrl+C NO COMANDO
+3. Ctr+V NO GnuPLot
+4. Substituir caminho do arquivo pelo caminho correto.
+5. Enter
+6. Volte e Altere o parâmetro da frequência do processador no COMANDO, conforme a sua máquina
+7. Teste o comando alterado.
+8. Compare o seu resultado com o meu (arquivo "aproximacao7milhoes.bmp")
+9. Se seu grafico não saiu parecido com o meu, é porque existem outros parâmetros a serem considerados no seu processador, ou o mesmo não está operando em sua frequencia máxima.
