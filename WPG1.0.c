@@ -70,8 +70,8 @@ if (f == NULL)
 
           if(!(num % primo)) { //se é divisivel por algum primo
             ic *= -1;
-            num += (3 + ic);
-            it = 1; // Avoid the divisibility test by 3 or 2.
+            num += (3 + ic); // Avoid the divisibility test by 3 or 2.
+            it = 1; 
             continue;
           }
 
