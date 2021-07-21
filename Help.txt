@@ -1,0 +1,29 @@
+The bmp image has two plotted functions.
+
+x axis: number_of_cousins ​​found.
+Y axis: time spent in seconds.
+
+In green we have the math function that describes the expected behavior.
+
+In yellow, the behavior of the experiment.
+
+GnuPlot COMMAND:
+------------------------------------------------- -----------
+set grid
+set title "Algorithm tested with: Intel® Core™ i3-4005U -- FREQUENCY = 1700000"
+set key above
+log2(x) = log(x)/log(2)
+plot"C://Users/Wesley/Desktop/Nprimes_time.txt" title " N primes - Algorithm O( F(x) ) " with points pt 7 ps 0.025 lc 12, (x*sqrt(x)) / (log2 (x)*1700000*5) title "F(x) = (x*sqrt(x)) / (log2(x)*1700000*5)" lw 2
+------------------------------------------------- -----------
+
+INSTRUCTIONS:
+0. DOWNLOAD and Run program.c and provide an input N > 1Million (with no other open programs)
+1. Open GnuPLot
+2. Ctrl+C IN COMMAND
+3. Ctr+V NO GnuPLot
+4. Replace file path with correct path.
+5. Enter
+6. Go back and change the processor frequency parameter in the COMMAND, according to your machine
+7. Test the changed command.
+8. Compare your result with mine (file "aproximacao7milhoes.bmp")
+9. If your graph didn't come out similar to mine, it's because there are other parameters to be considered in your processor, or it isn't operating at its maximum frequency.
