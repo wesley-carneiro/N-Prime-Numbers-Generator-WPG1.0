@@ -26,4 +26,4 @@ INSTRUÇÕES:
 6. Volte e Altere o parâmetro da frequência do processador no COMANDO, conforme a sua máquina
 7. Teste o comando alterado.
 8. Compare o seu resultado com o meu (arquivo "aproximacao7milhoes.bmp")
-9. Se seu grafico não saiu parecido com o meu, é porque existem outros parâmetros a serem considerados no seu processador, ou ele está disputando o núcleo da CPU com outros processos, ou a CPU não está operando em sua frequencia máxima.
+9. Se seu grafico não saiu parecido com o meu, é porque existem outros parâmetros a serem considerados no seu processador, ou ele está disputando o núcleo da CPU com outros processos, ou a CPU não está operando na frequência desejada.
