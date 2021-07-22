@@ -26,4 +26,4 @@ INSTRUCTIONS:
 6. Go back and change the processor frequency parameter in the COMMAND, according to your machine
 7. Test the changed command.
 8. Compare your result with mine (file "aproximacao7milhoes.bmp")
-9. If your graph didn't come out similar to mine, it's because there are other parameters to be considered in your processor, or it isn't operating at its maximum frequency.
+9.If your graph doesn't look like mine, it's because there are other parameters to be considered in your processor, or it's "fighting" for the CPU core with other processes, or the CPU isn't operating at the desired frequency.
