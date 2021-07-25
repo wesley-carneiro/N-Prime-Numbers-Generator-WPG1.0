@@ -20,7 +20,7 @@ plot"Nprimos_time.txt" title " Algoritmo O( F(x) ) " with points pt 7 ps 0.025 l
 
 INSTRUÇÕES:
 0. BAIXAR e Executar o programa.c e fornecer uma entrada N > 1Milhão (com nenhum outro porgrama aberto)
-1. Abrir GnuPLot
+1. Abrir GnuPLot. ( Instalação linux: sudo apt-get install gnuplot-qt )
 2. Ctrl+C NO COMANDO
 3. Ctr+V NO GnuPLot
 4. Substituir caminho do arquivo pelo caminho correto.
