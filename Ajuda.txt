@@ -19,8 +19,8 @@ plot"C://Users/Wesley/Desktop/Nprimos_time.txt" title " Algoritmo O( F(x) ) " wi
 -------------------------------------------------------------
 
 INSTRUÇÕES:
-0. BAIXAR e Executar o programa.c e fornecer uma entrada N > 1Milhão (com nenhum outro porgrama aberto)
-1. Abrir GnuPLot. 
+0. BAIXAR Executar o programa e fornecer uma entrada N > 1Milhão (com nenhum outro porgrama aberto)
+1. Abrir GnuPLot.
 ( Instalação linux: 
 sudo apt-get update
 sudo apt-get install gnuplot-qt
