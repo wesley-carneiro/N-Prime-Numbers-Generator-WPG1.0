@@ -12,8 +12,10 @@ COMANDO GnuPLot:
 set grid
 set title "Algoritmo testado com: Intel(R) Core(TM) i3-4005U -- FREQUENCIA = 1700000 kHz"
 set key above
+set ylabel 'Tempo em segundos'
+set xlabel 'Quantidade de numeros primos encontrados = x'
 log2(x) = log(x)/log(2)
-plot"Nprimos_time.txt" title " N primos - Algoritmo O( F(x) ) " with points pt 7 ps 0.025 lc 12, (x*sqrt(x)) / (log2(x)*1700000*5) title "F(x) = (x*sqrt(x)) / (log2(x)*1700000*5)" lw 2
+plot"Nprimos_time.txt" title " Algoritmo O( F(x) ) " with points pt 7 ps 0.025 lc 12, (x*sqrt(x)) / (log2(x)*1700000*5) title "F(x) = (x*sqrt(x)) / (log2(x)*1700000*5)" lw 2
 -------------------------------------------------------------
 
 INSTRUÇÕES:
