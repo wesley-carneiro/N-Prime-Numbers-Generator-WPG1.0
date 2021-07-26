@@ -11,7 +11,7 @@ Could you help me by testing the algorithm on your machine?
 
 Follow the few instructions in the Help.txt file and send me:
 1. The txt file generated for plotting
-2. The print of the result.
+2. The print screen of the result.
 
 wesleyalves11@gmail.com
 
