@@ -26,6 +26,6 @@ Siga as poucas instruções do arquivo Ajuda.txt e me envie:
 1. O arquivo txt que foi gerado para plotagem
 2. O print do resultado.
 wesleyalves11@gmail.com
-Ficarei grato!
+Fico grato!
 
 
