@@ -10,8 +10,9 @@ I created an algorithm that generates prime numbers and I'm trying to find out i
 Could you help me by testing the algorithm on your machine?
 
 Follow the few instructions in the Help.txt file and send me:
-1. The txt file generated for plotting
+1. The file generated for plotting (Nprimos_times.txt)  - I need it for specifc study purposes.
 2. The print screen of the result.
+3. Don't forget to inform the "full name" of your processor and the frequency.
 
 wesleyalves11@gmail.com
 
@@ -24,8 +25,9 @@ Fiz um algoritmo que gera números primos e estou tentando descobrir se sua comp
 Você poderia me ajudar testando o algoritmo em sua máquina?
 
 Siga as poucas instruções do arquivo Ajuda.txt e me envie:
-1. O arquivo txt que foi gerado para plotagem
+1. O arquivo gerado para plotagem (Nprimos_times) - para fins de estudo específicos.
 2. O print do resultado.
+3. Não esqueça de informar o "nome completo" do seu processador e a frequência.
 
 wesleyalves11@gmail.com
 
