@@ -14,6 +14,7 @@ Follow the few instructions in the Help.txt file and send me:
 2. The print of the result.
 
 wesleyalves11@gmail.com
+
 I will be grateful!
 
 ------------------------------------
@@ -25,7 +26,9 @@ Você poderia me ajudar testando o algoritmo em sua máquina?
 Siga as poucas instruções do arquivo Ajuda.txt e me envie:
 1. O arquivo txt que foi gerado para plotagem
 2. O print do resultado.
+
 wesleyalves11@gmail.com
+
 Fico grato!
 
 
