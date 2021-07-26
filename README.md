@@ -19,7 +19,7 @@ wesleyalves11@gmail.com
 I will be grateful!
 
 ------------------------------------
-Olá... Meu nome é Wesley. Na graduação, uma área que me interessa muito é construção e Análise de algoritmos.
+🇧🇷 Olá... Meu nome é Wesley. Na graduação, uma área que me interessa muito é construção e Análise de algoritmos.
 Fiz um algoritmo que gera números primos e estou tentando descobrir se sua complexidade é O( N^1.5 / log2(N) ).
 
 Você poderia me ajudar testando o algoritmo em sua máquina?
