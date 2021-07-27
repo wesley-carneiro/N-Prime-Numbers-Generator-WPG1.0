@@ -14,7 +14,7 @@ Follow the few instructions in the Help.txt file and send me:
 2. The print screen of the result.
 3. Don't forget to inform the "full name" of your processor and the frequency.
 
-wesleyalves11@gmail.com
+wesleycarneiro@alu.ufc.br
 
 I will be grateful!
 
