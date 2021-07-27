@@ -20,7 +20,7 @@ plot"C://Users/Wesley/Desktop/Nprimos_time.txt" title " Algorithm O( F(x) ) " wi
 
 INSTRUCTIONS:
 0. DOWNLOAD and Run the program and provide an input N > 1Million (with no other open programs)
-1. Open GnuPLot
+1. Open GnuPLot. ( Linux: command in terminal: gnuplot )
 ( Installation on linux: 
 sudo apt-get update
 sudo apt-get install gnuplot-qt
