@@ -29,7 +29,7 @@ Siga as poucas instruções do arquivo Ajuda.txt e me envie:
 2. O print do resultado.
 3. Não esqueça de informar o "nome completo" do seu processador e a frequência.
 
-wesleyalves11@gmail.com
+wesleycarneiro@alu.ufc.br
 
 Fico grato!
 
