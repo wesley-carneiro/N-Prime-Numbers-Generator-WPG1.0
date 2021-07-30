@@ -1,6 +1,6 @@
 # N-Prime-Numbers-Generator-WPG1.0
 🇧🇷 [O( N^1.5 / ([log2 N] × k × CPU_frequency_kHz) ) = O( N^1.5 / log2 N ).](https://drive.google.com/drive/u/1/folders/1WmZ8R-ODHwwd0fHH7YJKG0q2-fnglXUL)
-Wesley´s Primes Generator 1.0 in C.
+W Primes Generator 1.0 in C.
 
 Hi... My name is Wesley. In graduation, an area that interests me is construction and analysis of algorithms.
 I created an algorithm that generates prime numbers and I'm trying to find out if its complexity is O( N^1.5 / log2(N) ).
