@@ -12,7 +12,7 @@ Follow the few instructions in the Help.txt file and send me:
 2. The print screen of the result.
 3. Don't forget to inform the "full name" of your processor and the frequency.
 
-wesleycarneiro@alu.ufc.br
+wesleycworld@gmail.com
 
 I'll appreciate it!
 
@@ -25,9 +25,9 @@ Você poderia me ajudar testando o algoritmo em sua máquina?
 Siga as poucas instruções do arquivo Ajuda.txt e me envie:
 1. O arquivo gerado para plotagem (Nprimos_times) - para fins de estudo específicos.
 2. O print do resultado.
-3. Não esqueça de informar o "nome completo" do seu processador e a frequência.
+3. Não esqueça de informar o "nome completo" do seu processador e a sua frequência.
 
-wesleycarneiro@alu.ufc.br
+wesleycworld@gmail.com
 
 Fico grato!
 
